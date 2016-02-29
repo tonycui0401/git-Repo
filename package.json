@@ -1,0 +1,9 @@
+{
+  "name": "Repo",
+  "version": "0.0.0",
+  "description": "A simple git repository list and detail view",
+  "repository": "",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

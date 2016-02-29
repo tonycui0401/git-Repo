@@ -1,0 +1,12 @@
+ <table class="table table-hover">
+        <tbody>
+            <tr data-ng-repeat="repo in repos | orderBy:'-star'">
+                <td><a ui-sref="repos.detailAsRoot({id:$index})"><em>{{repo.name}}</em></a>
+
+                </td>
+                <td><i class="fa fa-star"></i> {{repo.star}}</td>
+                <td><i class="fa fa-eye"></i> {{repo.view}}</td>
+                <td><i class="fa fa-code-fork"></i> {{repo.fork}}</td>
+            </tr>
+        </tbody>
+    </table>

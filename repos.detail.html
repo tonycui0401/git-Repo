@@ -1,0 +1,25 @@
+<style>
+.table th, .table td { 
+     border-top: none !important; 
+ }
+</style>
+
+<div style="padding:5px 70px;">
+
+ <table class="table">
+   
+      <tr>
+        <td> <h2>{{repo.name}}</h4></th>
+        <td>{{repo.update}}</td>
+       <td><i class="fa fa-star"></i> {{repo.star}}</td>
+                <td><i class="fa fa-eye"></i> {{repo.view}}</td>
+                <td><i class="fa fa-code-fork"></i> {{repo.fork}}</td>
+      </tr>
+    
+  </table>
+
+
+ 
+<h4>{{repo.description}}</h4>
+ <a ng-click='back()' href="#" style="font-size:12pt;">Back to list</a>
+</div>
